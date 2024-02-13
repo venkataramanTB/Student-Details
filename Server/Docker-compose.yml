@@ -1,0 +1,8 @@
+version: '3'
+services:
+  server:
+    build: ./server
+    ports:
+      - "5000:5000"
+    environment:
+      - RENDER_DATABASE_URL=postgres://venkat:rqACvNhbKcmLxXEo4iYFiX0qD1LB75lf@dpg-cltum1ta73kc739792lg-a/employee_e2wx

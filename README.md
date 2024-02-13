@@ -1,2 +1,2 @@
-# Student Details
+# Student-Detail
  
